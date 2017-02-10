@@ -29,5 +29,5 @@ The results will be named ``launches_database.csv``.
 
 ## Credits
 
-[Tim Fernholz](https://qz.com/author/tfernholz/)
-[Christopher Groskopf](https://qz.com/author/chrisqz/)
+* [Tim Fernholz](https://qz.com/author/tfernholz/)
+* [Christopher Groskopf](https://qz.com/author/chrisqz/)
