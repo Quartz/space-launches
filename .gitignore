@@ -1,0 +1,5 @@
+launches
+*.pyc
+.DS_Store
+launches.tar.gz
+launch_database.csv
