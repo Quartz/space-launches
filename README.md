@@ -28,6 +28,14 @@ Convert fixed-width files into CSVs:
 
 The results can be found in the ``results`` folder.
 
+To create a local sqlite database:
+
+```
+./create_db.sh
+```
+
+The resulting database will be called ``launches.db``.
+
 ## Credits
 
 * [Tim Fernholz](https://qz.com/author/tfernholz/)

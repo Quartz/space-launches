@@ -17,7 +17,7 @@ for filename in launches/*_stripped.csv; do
       mv $filename clean_launch/
 done
 
-csvstack clean_launch/*.csv > results/launch_database.csv
+csvstack clean_launch/*.csv > results/launches.csv
 
 rm launches/*.csv
 
