@@ -1,4 +1,6 @@
 launches
+results
+lookups
 *.pyc
 .DS_Store
 launches.tar.gz

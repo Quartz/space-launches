@@ -2,7 +2,7 @@
 
 for filename in launches/*; do
       echo $filename
-      in2csv -f fixed -s launch_schema.csv $filename > $filename.csv
+      in2csv -f fixed -s schemas/launch_schema.csv $filename > $filename.csv
 done
 
 for filename in launches/*.csv; do
@@ -17,7 +17,7 @@ for filename in launches/*_stripped.csv; do
       mv $filename clean_launch/
 done
 
-csvstack clean_launch/*.csv > launch_database.csv
+csvstack clean_launch/*.csv > results/launch_database.csv
 
 rm launches/*.csv
 

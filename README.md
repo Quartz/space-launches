@@ -1,6 +1,6 @@
 # space-launches
 
-Converts the [JSR Launch Vehicle database](http://www.planet4589.org/space/lvdb/index.html) into one big CSV file.
+Converts the [JSR Launch Vehicle database](http://www.planet4589.org/space/lvdb/index.html) into a database suitable for analysis.
 
 ## Setup
 
@@ -19,13 +19,14 @@ tar xvfz launches.tar.gz -C launches
 
 ## Usage
 
-Convert fixed-width files into one big table:
+Convert fixed-width files into CSVs:
 
 ```
 ./convert.sh
+./convert_lookups.sh
 ```
 
-The results will be named ``launches_database.csv``.
+The results can be found in the ``results`` folder.
 
 ## Credits
 
