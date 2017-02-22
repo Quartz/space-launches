@@ -1,4 +1,4 @@
-# space-launches
+d# space-launches
 
 Converts the [JSR Launch Vehicle database](http://www.planet4589.org/space/lvdb/index.html) into a database suitable for analysis.
 
@@ -31,10 +31,14 @@ The results can be found in the ``results`` folder.
 To create a local sqlite database:
 
 ```
-./create_db.sh
+sqlite3 launches.db < import_query.sql
 ```
 
-The resulting database will be called ``launches.db``.
+To run the boilerplate queries:
+
+```
+sqlite3 launches.db < queries.sql
+```
 
 ## Credits
 
