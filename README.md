@@ -1,4 +1,4 @@
-d# space-launches
+# space-launches
 
 Converts the [JSR Launch Vehicle database](http://www.planet4589.org/space/lvdb/index.html) into a database suitable for analysis.
 
