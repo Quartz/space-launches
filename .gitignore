@@ -5,3 +5,5 @@ lookups
 .DS_Store
 launches.tar.gz
 launches.db
+.Rhistory
+sample_analysis
